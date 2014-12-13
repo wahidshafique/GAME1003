@@ -1,0 +1,72 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>GAME1003 Week 5 Cards</title>
+    <link rel="stylesheet" type="text/css" href="A2Style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="stage">
+            <div class="stageMenu">
+                <h1>War...The card game</h1>
+                <p><i>Trivial! Just like the real thing</i></p>
+                <button class="btn1">Play</button>
+                <button class="btn">Quit</button>
+                <br />
+                <br />
+                <br />
+                <img src="images/tumblr_mt6dakFVQY1s5vdveo1_500.gif" />
+            </div>
+            <div class="stageEnd">
+                <h1 id="endMessage"></h1>
+                <img id="endGif" src="images/760.gif" />
+                <br />
+                <br />
+                <button class="btn2" onclick="history.go(0)" value="Refresh">Replay</button>
+            </div>
+            <p>Player Hand</p>
+            <div class="playerHand">
+                <div class="card" id="card1"></div>
+                <div class="card" id="card2"></div>
+            </div>
+            <button id="playCard">Play Card</button>
+            <button id="playCard2">Play Card</button>
+            <p>Dealer Hand</p>
+            <div class="dealerHand">
+                <div class="card" id="card3"></div>
+            </div>
+            <p id="winMsg"></p>
+            <p id="scoreMsg">Player wins: <span id="playerWins"></span>&nbsp;&nbsp;&nbsp; Dealer wins: <span id="dealerWins"></span></p>
+        </div>
+    </div>
+    <div id="audio-button">
+        <img id="audio-icon" src="images/sound.png" title="Turn annoying music off :)" />
+    </div>
+
+
+    <audio id="chuck" autoplay loop>
+        <source src="audio/1239188024.mp3" type="audio/mp3" />
+    </audio>
+    <audio id="begin">
+        <source src="audio/Gentlemen-let-the-tournament-begin!.mp3" type="audio/mp3">
+    </audio>
+    <audio id="end-win">
+        <source src="audio/Superduper-gang!-Yeah!-Yeah!.mp3" type="audio/mp3" />
+    </audio>
+    <audio id="end-lose">
+        <source src="audio/KilMeNow.wav" type="audio/wav" />
+    </audio>
+    <audio id="miss">
+        <source src="audio/miss.wav" type="audio/wav" />
+    </audio>
+    <audio id="hit">
+        <source src="audio/hit.mp3" type="audio/mp3" />
+    </audio>
+
+    <script src="A2Script.js"></script>
+</body>
+
+
+</html>
+

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{18F3EAAF-A4C1-493E-AA6C-957A68487E15}"
+	ProjectSection(SolutionItems) = preProject
+		1239188024.mp3 = 1239188024.mp3
+		379.jpg = 379.jpg
+		760.gif = 760.gif
+		A2Script.js = A2Script.js
+		A2Style.css = A2Style.css
+		Deck.gif = Deck.gif
+		GAME1003_A2_LastnameFirstname.html = GAME1003_A2_LastnameFirstname.html
+		Gentlemen-let-the-tournament-begin!.mp3 = Gentlemen-let-the-tournament-begin!.mp3
+		no_sound.png = no_sound.png
+		old-hardwood-floor-texturebbdd-wood-0bcsl8kx.jpg = old-hardwood-floor-texturebbdd-wood-0bcsl8kx.jpg
+		sound.png = sound.png
+		tumblr_mt6dakFVQY1s5vdveo1_500.gif = tumblr_mt6dakFVQY1s5vdveo1_500.gif
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

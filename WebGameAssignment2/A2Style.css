@@ -1,0 +1,89 @@
+body {
+    background-image: url("images/old-hardwood-floor-texturebbdd-wood-0bcsl8kx.jpg");
+}
+
+p {
+    font-size: 24px;
+    color: White;
+}
+
+.container {
+    position: relative;
+    width: 820px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image: url("images/379.jpg");
+}
+
+.stage, .stageMenu, .stageEnd{
+    position: absolute;
+    width: 820px;
+    height: 740px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image: url("images/379.jpg");
+}
+.stageEnd {
+    visibility:hidden;
+    height:690px;
+}
+
+h1 {
+    color: white;
+}
+
+.hand {
+    width: 800px;
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: Green;
+}
+
+.card {
+    width: 134px;
+    height: 190px;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    background: url('Deck.gif') -720px -800px;
+}
+
+    .card#card1:hover {
+        border: 2px solid yellow;
+    }
+
+    .card#card2:hover {
+        border: 2px solid yellow;
+    }
+
+#playCard, #playCard2 {
+    visibility: hidden;
+}
+
+.btn, .btn1, .btn2, #playCard,#playCard2 {
+    background: darkgreen;
+    background-image: -webkit-linear-gradient(top, darkgreen, #ffffff);
+    -webkit-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+    .btn:hover,.btn1:hover, .btn2:hover, #playCard:hover, #playCard2:hover {
+        background: green;
+        background-image: -webkit-linear-gradient(top, green, #ffffff);
+        text-decoration: none;
+    }
+
+#audio-button img {
+    width: 50px;
+    height: auto;
+    margin: 3% 50% 0 50%;
+}

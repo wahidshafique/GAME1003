@@ -1,0 +1,128 @@
+﻿body {
+    margin: 0px;
+    background: url("Assets/General/A_Website_Background.png");
+    -webkit-background-size: 100%;
+}
+
+/*Floating menu*/
+.menu {
+    margin-right:100%;
+    position:fixed;
+    font-family:"Open Sans";
+    z-index:10;
+}
+nav {
+    margin: auto 75% auto auto;
+}
+nav ul ul {
+    display: none;
+}
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul {
+    background: #efefef;
+    background: -webkit-linear-gradient(right, white -5%, grey 100%);
+    box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.15);
+    padding: 0 5px;
+    border-radius: 10px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    color:red;
+}
+nav ul:after {
+    content:"";
+    clear: both;
+    display: block;
+}
+nav ul li {
+    float: left;
+}
+nav ul li:hover {
+    background: #4b545f;
+    background: -webkit-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+}
+nav ul li:hover a {
+    color: #fff;
+}
+nav ul li a {
+    display: block;
+    padding: 25px 40px;
+    color: #757575;
+    text-decoration: none;
+}
+nav ul ul {
+    background: #5f6975;
+    border-radius: 0px;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+}
+
+/*main*/
+.mainpage-container {
+    font-family:"Open Sans", Verdana;
+    text-align:justify;
+    width: 50%;
+    margin: 0 auto;
+    border: 0px solid;
+    color: black;
+    line-height: 2;
+}
+
+.mainpage-container h1 {
+    text-align:center;
+}
+
+/*images*/
+.TLOU1 {
+  
+  height:100%;
+  width:100%;
+  margin:0 auto;
+}
+
+.TLOU1 img {
+    height:auto;
+    width:100%;
+}
+
+
+.hidden {                                                                        
+  display: none !important;                                                      
+}
+
+.SSB1 {
+   height:100%;
+  width:100%;
+  margin:0 auto;
+}
+.SSB1 img {
+    height:auto;
+    width:100%;
+}
+
+.hearthstone {
+    height:100%;
+  width:100%;
+  margin:0 auto;
+}
+
+.hearthstone img {
+    height:auto;
+    width:100%;
+}
+
+#divider{
+    width:120%;
+    margin-left:-10%;
+}
+
+.closer{
+    
+}
+.closer h2{
+    text-align:center;
+    color:grey;
+}
